@@ -1,34 +1,58 @@
 ---
 layout: about
 title: about
-permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+permalink: /about-einstein/
+subtitle: PhD Researcher at UPC BarcelonaTech
 
 profile:
-  align: right
-  image: jamal.jpg
-  image_circular: false # crops the image to make it circular
+  align: left
+  image: jamal.jpg  # Ensure this matches your filename!
+  image_circular: false 
+  
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <div class="sidebar-links">    
+      <div class="link-item no-hover">
+        <i class="fas fa-map-marker-alt icon-fixed"></i> 
+        <span>Barcelona, Spain</span>
+      </div>
+      <div class="link-item no-hover">
+        <i class="fas fa-university icon-fixed"></i> 
+        <span>UPC</span>
+      </div>
+      <a href="mailto:jamal.abounasr@upc.edu" class="link-item">
+        <i class="fas fa-envelope icon-fixed"></i> 
+        <span>Email</span>
+      </a>
+      <a href="https://scholar.google.com/citations?user=BnjJTP8AAAAJ" target="_blank" class="link-item">
+        <i class="fas fa-graduation-cap icon-fixed"></i> 
+        <span>Google Scholar</span>
+      </a>
+      <a href="https://www.linkedin.com/in/jamal-abounasr-23b4ba252" target="_blank" class="link-item">
+        <i class="fas fa-briefcase icon-fixed"></i> 
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://orcid.org/0009-0007-8510-6873" target="_blank" class="link-item">
+        <i class="fa-brands fa-orcid"></i> 
+        <span>ORCID</span>
+      </a>
+      <a href="/assets/pdf/CV 2026.pdf" target="_blank" class="link-item">
+        <i class="fas fa-file-pdf icon-fixed"></i> 
+        <span>CV</span>
+      </a>
+    </div>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+# ---------------------------------------------------------
+selected_papers: true  # This ensures Publications shows at the bottom
+social: false 
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false       # Hides the "News" section
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false       # Hides the "Latest Posts" section
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I’m Jamal Abounasr, a researcher with the <a href="https://rflex.upc.edu/en" target="_blank">RFLEX</a> (Radio Frequency Identification & Flexible Electronics) group at the Universitat Politècnica de Catalunya <a href="https://www.upc.edu/ca" target="_blank">(UPC)</a>. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My work focuses on wearable and body-integrated RF sensing, including printed and textile antenna sensors for respiratory monitoring and other biomedical applications. I design RF structures and validate them experimentally, bridging electromagnetics, flexible fabrication, and signal interpretation to turn RF measurements into meaningful physiological information.
